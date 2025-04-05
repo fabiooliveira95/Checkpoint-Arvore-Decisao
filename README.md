@@ -32,7 +32,7 @@ Este repositório contém atividades práticas relacionadas ao treinamento e val
 2.Navegue até o diretório do projeto:
 
       bash
-      cd Chekpoint
+      cd Checkpoint-Arvore-Decisao
       
 3.Instale as dependências :
 
