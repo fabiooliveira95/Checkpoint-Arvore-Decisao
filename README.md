@@ -1,24 +1,88 @@
-1. Considere a base que você ajustou na lição passada. Carregue-a. Caso ainda haja alguma pendência, ajuste - lembre-se de que o scikitlearn não recebe variáveis em formato string, somente numéricas, e não aceita 'missings'.
+# 📊 Projeto: Checkpoint de Aprendizado de Máquina
 
-Separe 70% da base para treinamento e 30% para validação. Cada uma dessas partes terá dois objetos, um armazenando a variável resposta maue outro armazenando as variáveis explicativas (lembrando: sem variáveis string, já com as dummies).
+Este repositório contém atividades práticas relacionadas ao treinamento e validação de modelos de **Árvore de Decisão** utilizando a biblioteca `scikit-learn`.
 
-e tambem vamos ultilizar algumas bibliotecas e seus modulos para treina o modelo
+---
 
-.numpy
-.pandas
-.searborn
-.matplotlib
-.sklearn
+## 🗂️ Estrutura do Repositório
 
-2. Defina um objeto com a função da árvore de decisão vista em aula.
-Treine o modelo com os dados que você separou para treinamento.
-Visualize a árvore. Talvez você queira aumentar um pouco a figura.
-Produza uma visualização da matriz de classificação (ou matriz de confusão) - coloque os rótulos como "aprovados" e "reprovados" - pois afinal de contas, são essas as decisões que se podem tomar com propostas de crédito.
-Calcule a acurácia na base de treinamento
+- `Mod 07 - Tarefa 02-checkpoint.ipynb`: Notebook com as etapas de pré-processamento, treinamento e avaliação do modelo.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Python 3.x
+- Bibliotecas:
+  - `numpy`
+  - `pandas`
+  - `seaborn`
+  - `matplotlib`
+  - `scikit-learn`
+
+---
+
+## 🚀 Como Executar o Projeto
+
+1. **Clone o repositório**:
+
+       bash
+       git clone https://github.com/fabiooliveira95/Chekpoint.git
+
+2.Navegue até o diretório do projeto:
+
+      bash
+      cd Chekpoint
+      
+3.Instale as dependências :
+
+Certifique-se de que as bibliotecas mencionadas acima estão instaladas. Caso contrário, instale-as utilizando ``pip``:
+
+      bash
+      pip install numpy pandas seaborn matplotlib scikit-learn
+
+4.Execute o notebook:
+
+Abra o notebook ``Mod 07 - Tarefa 02-checkpoint.ipynb`` em um ambiente Jupyter Notebook
+ou similar para visualizar e executar as células de código.
+
+📝 Descrição das Atividades
+
+    
+1.Pré-processamento dos Dados :
+
+  Carregamento e limpeza da base de dados.
+  Conversão de variáveis categóricas em numéricas (dummies).
+  Tratamento de valores ausentes.
+
+2.Divisão da Base de Dados:
+  
+  Separação dos dados em conjuntos de treinamento (70%) e teste (30%).
+  Criação de variáveis explicativas e variável resposta.
+
+3.Treinamento do Modelo :
+  
+  Definição e treinamento de um modelo de Árvore de Decisão utilizando ``scikit-learn``.
+  Visualização da estrutura da árvore gerada.
+
+4.Avaliação do Modelo :
+
+  Geração da matriz de confusão com rótulos "aprovados" e "reprovados".
+  Cálculo da acurácia na base de treinamento.
 
 
-3. Classifique a base de teste de acordo com a árvore que você treinou no item 2.
-Produza a visualização da matriz de confusão para a base de teste.
-Calcule a acurácia da base de teste. Compare com a acurácia da base de treinamento.
-Treine uma nova árvore com número mínimo de observações por folha de 5 e máximo de profundidade de 10. Use o random_state = 123. Avalie a matriz de classificação. Observe a distribuição da predição - qual a proporção de proponentes foram classificados como 'maus'?
-Como ficaria a acurácia se você classificasse todos os contratos como 'bons'?
+📈 Resultados Esperados
+
+  Compreensão prática do uso de Árvores de Decisão para classificação.
+  Avaliação das métricas de desempenho do modelo.
+  Interpretação dos resultados obtidos e identificação de possíveis melhorias. 
+
+📜 Licença
+
+* ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+## 📬 Contato
+
+* Fábio Oliveira
+* 🔗 [LinkedIn](https://www.linkedin.com/in/fabio-oliveira-araujo-cientista/)
+* 📧 fabiooliveira0067@gmail.com
