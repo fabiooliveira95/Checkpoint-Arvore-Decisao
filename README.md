@@ -27,7 +27,7 @@ Este repositório contém atividades práticas relacionadas ao treinamento e val
 1. **Clone o repositório**:
 
        bash
-       git clone https://github.com/fabiooliveira95/Chekpoint.git
+       git clone https://github.com/fabiooliveira95/Checkpoint-Arvore-Decisao.git
 
 2.Navegue até o diretório do projeto:
 
@@ -43,7 +43,7 @@ Certifique-se de que as bibliotecas mencionadas acima estão instaladas. Caso co
 
 4.Execute o notebook:
 
-Abra o notebook ``Mod 07 - Tarefa 02-checkpoint.ipynb`` em um ambiente Jupyter Notebook
+Abra o notebook ``Checkpoint-Arvore-Decisao`` em um ambiente Jupyter Notebook
 ou similar para visualizar e executar as células de código.
 
 📝 Descrição das Atividades
