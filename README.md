@@ -35,60 +35,62 @@ Checkpoint-Arvore-Decisao/ ├── Mod 07 - Tarefa 02-checkpoint.ipynb # Noteb
   ## 🚀 Como Executar
 
 1. Clone o repositório:
-
-  ```bash
-     git clone https://github.com/fabiooliveira95/Checkpoint-Arvore-Decisao.git
-     cd Checkpoint-Arvore-Decisao
+```bash
+   git clone https://github.com/fabiooliveira95/Checkpoint-Arvore-Decisao.git
+   cd Checkpoint-Arvore-Decisao
   ```
-   
-2.Instale as dependências: 
+2.Acesse a pasta do projeto:
+```bash 
+   Checkpoint-Arvore-Decisao.git
+```
 
- ```bash
-     pip install pandas
- ```
- ```bash
-    pip install matplotlib
- ```
- ```bash
-    pip install seaborn
- ```
- ```bash
-    pip install scikit-learn
- ```
+3.Instale as dependências: 
+```bash
+   pip install pandas
+```
+```bash
+   pip install matplotlib
+```
+```bash
+   pip install seaborn
+```
+```bash
+   pip install scikit-learn
+```
 
 📝 Etapas Realizadas
 
 1.Importação e tratamento da base de dados
      
-   * Leitura de arquivo CSV
-   * Conversão de colunas categóricas para dummies
-   * Verificação de valores nulos
+* Leitura de arquivo CSV
+* Conversão de colunas categóricas para dummies
+* Verificação de valores nulos
 
 2.Separação em treino e teste
 
-   * 70% dos dados para treino e 30% para teste
-   * Variável resposta: aprovação ou reprovação
+* 70% dos dados para treino e 30% para teste
+* Variável resposta: aprovação ou reprovação
 
 3.Construção do modelo
 
-   * Utilização de ``DecisionTreeClassifier``
-   * Ajuste do modelo com ``fit``
+* Utilização de ``DecisionTreeClassifier``
+* Ajuste do modelo com ``fit``
 
 4.Avaliação
 
-   * Predições com o modelo treinado
-   * Geração da matriz de confusão com rótulos "aprovado" e "reprovado"
+* Predições com o modelo treinado
+* Geração da matriz de confusão com rótulos "aprovado" e "reprovado"
 
 5.Cálculo da acurácia
 
-   * Visualização da Árvore
-   * Exibição gráfica dos nós de decisão utilizando ``plot_tree``
+* Visualização da Árvore
+* Exibição gráfica dos nós de decisão utilizando ``plot_tree``
 
 📈 Resultados esperados
 
-  * Obter uma árvore de decisão bem ajustada à base.
-  * Visualizar claramente as divisões e critérios de decisão.
-  * Entender o impacto de cada variável na classificação.
+* Obter uma árvore de decisão bem ajustada à base.
+* Visualizar claramente as divisões e critérios de decisão.
+* Entender o impacto de cada variável na classificação.
 
 ## 📬 Contato
 
