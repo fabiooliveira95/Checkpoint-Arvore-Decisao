@@ -37,22 +37,22 @@ Checkpoint-Arvore-Decisao/ ├── Mod 07 - Tarefa 02-checkpoint.ipynb # Noteb
   1. Clone o repositório:
 
   ```bash
-git clone https://github.com/seu-repo.git
-cd nome-do-repositorio
-pip install -r requirements.txt
+git clone https://github.com/fabiooliveira95/Checkpoint-Arvore-Decisao.git
+cd Checkpoint-Arvore-Decisao
 ```
     
 
 2.Instale as dependências: 
 
-    ```bater
+  ```bash
     pip install pandas numpy matplotlib seaborn scikit-learn
+  ```
 
 3.Execute o notebook: 
 
-    ``bater
-    jupyter notebook "Mod 07 - Tarefa 02-checkpoint.ipynb"
-
+  ```bash
+     jupyter notebook "Mod 07 - Tarefa 02-checkpoint.ipynb"
+  ```
 📝 Etapas Realizadas
 
 1.Importação e tratamento da base de dados
