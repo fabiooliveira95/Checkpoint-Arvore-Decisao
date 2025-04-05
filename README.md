@@ -17,7 +17,6 @@ Este projeto tem como objetivo aplicar os conceitos de **classificação supervi
 
 - Python 3.x
 - Jupyter Notebook
-```Bibliotecas```:
 - pandas
 - numpy
 - matplotlib
