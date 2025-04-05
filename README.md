@@ -43,10 +43,12 @@ Checkpoint-Arvore-Decisao/ ├── Mod 07 - Tarefa 02-checkpoint.ipynb # Noteb
    
 2.Instale as dependências: 
 
-  ```bash
+ ```bash
      pip install pandas
-     pip install matplotlib
-  ```
+ ```
+ ```bash
+    pip install matplotlib
+ ```
 
 3.Execute o notebook: 
 
