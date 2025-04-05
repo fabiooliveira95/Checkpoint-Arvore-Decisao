@@ -56,11 +56,6 @@ Checkpoint-Arvore-Decisao/ ├── Mod 07 - Tarefa 02-checkpoint.ipynb # Noteb
     pip install scikit-learn
  ```
 
-3.Execute o notebook: 
-
-  ```bash
-     jupyter notebook "Mod 07 - Tarefa 02-checkpoint.ipynb"
-  ```
 📝 Etapas Realizadas
 
 1.Importação e tratamento da base de dados
