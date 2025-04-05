@@ -36,11 +36,10 @@ Checkpoint-Arvore-Decisao/ ├── Mod 07 - Tarefa 02-checkpoint.ipynb # Noteb
 1. Clone o repositório:
 ```bash
    git clone https://github.com/fabiooliveira95/Checkpoint-Arvore-Decisao.git
-   cd Checkpoint-Arvore-Decisao
-  ```
+```
 2.Acesse a pasta do projeto:
 ```bash 
-   Checkpoint-Arvore-Decisao.git
+  cd Checkpoint-Arvore-Decisao.git
 ```
 
 3.Instale as dependências: 
