@@ -62,7 +62,7 @@ ou similar para visualizar e executar as células de código.
 
 3.Treinamento do Modelo :
   
-  * Definição e treinamento de um modelo de Árvore de Decisão utilizando ``scikit-learn``.
+  * Definição e treinamento de um modelo de ``Árvore de Decisão`` utilizando ``scikit-learn``.
   * Visualização da estrutura da árvore gerada.
 
 4.Avaliação do Modelo :
