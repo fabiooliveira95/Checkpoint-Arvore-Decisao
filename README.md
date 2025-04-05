@@ -1,85 +1,89 @@
-# 📊 Projeto: Checkpoint de Aprendizado de Máquina
+# ✅ Checkpoint: Árvores de Decisão – EBAC
 
-Este repositório contém atividades práticas relacionadas ao treinamento e validação de modelos de **Árvore de Decisão** utilizando a biblioteca `scikit-learn`.
-
----
-
-## 🗂️ Estrutura do Repositório
-
-- `Mod 07 - Tarefa 02-checkpoint.ipynb`: Notebook com as etapas de pré-processamento, treinamento e avaliação do modelo.
+Este projeto tem como objetivo aplicar os conceitos de **classificação supervisionada** utilizando o algoritmo de **Árvore de Decisão** com a biblioteca `scikit-learn`. A atividade faz parte do curso de Ciência de Dados da **EBAC**.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🎯 Objetivos
+
+- Carregar e tratar uma base de dados fictícia.
+- Construir um modelo de árvore de decisão.
+- Avaliar o desempenho do modelo com métricas como **acurácia** e **matriz de confusão**.
+- Visualizar a estrutura da árvore para interpretação dos critérios de decisão.
+
+---
+
+## 🧰 Tecnologias Utilizadas
 
 - Python 3.x
+- Jupyter Notebook
 - Bibliotecas:
-  - `numpy`
   - `pandas`
-  - `seaborn`
+  - `numpy`
   - `matplotlib`
+  - `seaborn`
   - `scikit-learn`
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 📁 Estrutura do Projeto
 
-1. **Clone o repositório**:
+Checkpoint-Arvore-Decisao/ ├── Mod 07 - Tarefa 02-checkpoint.ipynb # Notebook com todas as etapas └── README.md
 
-       ```bash
-       git clone https://github.com/fabiooliveira95/Checkpoint-Arvore-Decisao.git
+    ```bater
+---
 
-2.Navegue até o diretório do projeto:
+    ## 🚀 Como Executar
 
-      ```bash
-      cd Checkpoint-Arvore-Decisao
-      
-3.Instale as dependências :
+    1. Clone o repositório:
 
-Certifique-se de que as bibliotecas mencionadas acima estão instaladas. Caso contrário, instale-as utilizando ``pip``:
+    ```bash
+    git clone https://github.com/fabiooliveira95/Checkpoint-Arvore-Decisao.git
+    cd Checkpoint-Arvore-Decisao
 
-      ```bash
-      pip install numpy pandas seaborn matplotlib scikit-learn
+2.Instale as dependências: 
 
-4.Execute o notebook:
+    ```bater
+    pip install pandas numpy matplotlib seaborn scikit-learn
 
-Abra o notebook ``Checkpoint-Arvore-Decisao`` em um ambiente Jupyter Notebook
-ou similar para visualizar e executar as células de código.
+3.Execute o notebook: 
 
-📝 Descrição das Atividades
+    ``bater
+    jupyter notebook "Mod 07 - Tarefa 02-checkpoint.ipynb"
 
-    
-1.Pré-processamento dos Dados :
+📝 Etapas Realizadas
 
-  * Carregamento e limpeza da base de dados.
-  * Conversão de variáveis categóricas em numéricas (dummies).
-  * Tratamento de valores ausentes.
+1.Importação e tratamento da base de dados
+     
+   * Leitura de arquivo CSV
+   * Conversão de colunas categóricas para dummies
+   * Verificação de valores nulos
 
-2.Divisão da Base de Dados:
-  
-  * Separação dos dados em conjuntos de treinamento (70%) e teste (30%).
-  * Criação de variáveis explicativas e variável resposta.
+2.Separação em treino e teste
 
-3.Treinamento do Modelo :
-  
-  * Definição e treinamento de um modelo de ``Árvore de Decisão`` utilizando ``scikit-learn``.
-  * Visualização da estrutura da árvore gerada.
+   * 70% dos dados para treino e 30% para teste
+   * Variável resposta: aprovação ou reprovação
 
-4.Avaliação do Modelo :
+3.Construção do modelo
 
-  * Geração da matriz de confusão com rótulos "aprovados" e "reprovados".
-  * Cálculo da acurácia na base de treinamento.
+   * Utilização de ``DecisionTreeClassifier``
+   * Ajuste do modelo com ``fit``
 
+4.Avaliação
 
-📈 Resultados Esperados
+   * Predições com o modelo treinado
+   * Geração da matriz de confusão com rótulos "aprovado" e "reprovado"
 
-  * Compreensão prática do uso de Árvores de Decisão para classificação.
-  * Avaliação das métricas de desempenho do modelo.
-  * Interpretação dos resultados obtidos e identificação de possíveis melhorias. 
+5.Cálculo da acurácia
 
-📜 Licença
+   * Visualização da Árvore
+   * Exibição gráfica dos nós de decisão utilizando ``plot_tree``
 
-* ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+📈 Resultados esperados
+
+  * Obter uma árvore de decisão bem ajustada à base.
+  * Visualizar claramente as divisões e critérios de decisão.
+  * Entender o impacto de cada variável na classificação.
 
 ## 📬 Contato
 
