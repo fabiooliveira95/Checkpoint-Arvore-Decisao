@@ -49,6 +49,12 @@ Checkpoint-Arvore-Decisao/ ├── Mod 07 - Tarefa 02-checkpoint.ipynb # Noteb
  ```bash
     pip install matplotlib
  ```
+ ```bash
+    pip install seaborn
+ ```
+ ```bash
+    pip install scikit-learn
+ ```
 
 3.Execute o notebook: 
 
