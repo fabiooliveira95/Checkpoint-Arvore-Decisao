@@ -26,19 +26,19 @@ Este repositório contém atividades práticas relacionadas ao treinamento e val
 
 1. **Clone o repositório**:
 
-       bash
+       ```bash
        git clone https://github.com/fabiooliveira95/Checkpoint-Arvore-Decisao.git
 
 2.Navegue até o diretório do projeto:
 
-      bash
+      ```bash
       cd Checkpoint-Arvore-Decisao
       
 3.Instale as dependências :
 
 Certifique-se de que as bibliotecas mencionadas acima estão instaladas. Caso contrário, instale-as utilizando ``pip``:
 
-      bash
+      ```bash
       pip install numpy pandas seaborn matplotlib scikit-learn
 
 4.Execute o notebook:
