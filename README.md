@@ -18,11 +18,11 @@ Este projeto tem como objetivo aplicar os conceitos de **classificação supervi
 - Python 3.x
 - Jupyter Notebook
 - Bibliotecas:
-  - `pandas`
-  - `numpy`
-  - `matplotlib`
-  - `seaborn`
-  - `scikit-learn`
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
 
 ---
 
@@ -32,7 +32,7 @@ Checkpoint-Arvore-Decisao/ ├── Mod 07 - Tarefa 02-checkpoint.ipynb # Noteb
 
 ---
 
-  ## 🚀 Como Executar
+### 🚀 Como Executar
 
 1. Clone o repositório:
 ```bash
