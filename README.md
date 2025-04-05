@@ -17,11 +17,12 @@ Este projeto tem como objetivo aplicar os conceitos de **classificação supervi
 
 - Python 3.x
 - Jupyter Notebook
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
+- Bibliotecas"
+- ``pandas``
+- ``numpy``
+- ``matplotlib``
+- ``seaborn``
+- ``scikit-learn``
 
 ---
 
