@@ -37,7 +37,7 @@ Checkpoint-Arvore-Decisao/ ├── Mod 07 - Tarefa 02-checkpoint.ipynb # Noteb
 
   1. Clone o repositório:
 
-    ```bash
+    bash
     git clone https://github.com/fabiooliveira95/Checkpoint-Arvore-Decisao.git
     cd Checkpoint-Arvore-Decisao
 
