@@ -36,7 +36,7 @@ Checkpoint-Arvore-Decisao/ ├── Mod 07 - Tarefa 02-checkpoint.ipynb # Noteb
 
   1. Clone o repositório:
 
- <pre> ```bash ``` </pre>
+ <pre> ```bash git clone https://github.com/seu-repo.git cd nome-do-repositorio pip install -r requirements.txt ``` </pre>
 
 2.Instale as dependências: 
 
