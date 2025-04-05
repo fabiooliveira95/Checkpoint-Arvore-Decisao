@@ -30,17 +30,15 @@ Este projeto tem como objetivo aplicar os conceitos de **classificação supervi
 
 Checkpoint-Arvore-Decisao/ ├── Mod 07 - Tarefa 02-checkpoint.ipynb # Notebook com todas as etapas └── README.md
 
-    ```bater
 ---
 
   ## 🚀 Como Executar
 
   1. Clone o repositório:
-
+  
     bash
-    
-    git clone https://github.com/fabiooliveira95/Checkpoint-Arvore-Decisao.git
-    cd Checkpoint-Arvore-Decisao
+       git clone https://github.com/fabiooliveira95/Checkpoint-Arvore-Decisao.git
+       cd Checkpoint-Arvore-Decisao
 
 2.Instale as dependências: 
 
