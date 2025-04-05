@@ -27,8 +27,10 @@ Este projeto tem como objetivo aplicar os conceitos de **classificação supervi
 
 ## 📁 Estrutura do Projeto
 
-Checkpoint-Arvore-Decisao/ ├── Mod 07 - Tarefa 02-checkpoint.ipynb # Notebook com todas as etapas └── README.md
-
+```text
+Checkpoint-Arvore-Decisao/
+└── README.md                           # Documentação do projeto
+```
 ---
 
 ### 🚀 Como Executar
